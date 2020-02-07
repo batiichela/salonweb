@@ -1,4 +1,5 @@
 import React from 'react';
+import Registro from './Componentes/Registro';
 
 function App() {
   return (
@@ -6,6 +7,7 @@ function App() {
       <div className="jumbotron">
         <h1 className="text-center">Registro de Nuevos Usuarios</h1>
         <hr/><br/>
+        <Registro/>
       </div>
     </div>
   );
